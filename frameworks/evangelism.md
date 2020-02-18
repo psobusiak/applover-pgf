@@ -5,7 +5,7 @@ sidebarTitle: "💚 Evangelism"
 sidebarGroup:
 yaml: true
 levels: 3
-homepage: false
+homepage: true
 topics:
   - name: "evangelism"
     title: "💚 Evangelism skills"
@@ -25,3 +25,6 @@ topics:
           - "Publishes material about Applover’s organizational or technical innovations e.g. writes about Applover in their LinkedIn profile, blog, FB profile etc."
 
 ---
+
+### What is it about?
+Evangelism skills refer to spreading love about Applover all around the world 💚.

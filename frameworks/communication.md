@@ -5,7 +5,7 @@ sidebarTitle: "💬 Communication"
 sidebarGroup:
 yaml: true
 levels: 5
-homepage: false
+homepage: true
 topics:
   - name: "communcation"
     title: "💬 Communcation skills"
@@ -56,3 +56,6 @@ topics:
           - "Professionally manages difficult and challenging situations with client and is able to say no to the client in elegant way with thorough justification"
 
 ---
+
+### What is it about?
+Communication skills refer to your ability to maintain good communication with your peers and clients. These skills and exemplary behaviors correspond to keeping good information flow within teams/organisation on highest level as well as storing all relevant information according to established rules.

@@ -5,7 +5,7 @@ sidebarTitle: "🏢 Organisation Design"
 sidebarGroup:
 yaml: true
 levels: 5
-homepage: false
+homepage: true
 topics:
   - name: "organisation design"
     title: "🏢 Organisation Design skills"
@@ -38,3 +38,6 @@ topics:
           - "Has made an obvious positive impact on the entire company's growth trajectory"
 
 ---
+
+### What is it about?
+Organisation design skills refer to participation in definition/improvements of processes at Applover.

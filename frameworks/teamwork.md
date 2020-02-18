@@ -5,7 +5,7 @@ sidebarTitle: "🤝 Teamwork"
 sidebarGroup:
 yaml: true
 levels: 4
-homepage: false
+homepage: true
 topics:
   - name: "teamwork"
     title: "🤝 Teamwork skills"
@@ -36,3 +36,6 @@ topics:
           - "Helps other teams when they struggle with a problem or deadline"
 
 ---
+
+### What is it about?
+Teamwork skills refer to ability to smoothly collaborate with your peers in order to achieve a common goal.

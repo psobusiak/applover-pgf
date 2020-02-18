@@ -1,7 +1,7 @@
 ---
 path: "/core/wordpress"
-title: "🌐 Wordpress"
-sidebarTitle: "🌐 Wordpress"
+title: "🇼 Wordpress"
+sidebarTitle: "🇼 Wordpress"
 sidebarGroup: "core"
 yaml: true
 levels: 5

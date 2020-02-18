@@ -5,7 +5,7 @@ sidebarTitle: "🔧 Tech leading"
 sidebarGroup:
 yaml: true
 levels: 5
-homepage: false
+homepage: true
 topics:
   - name: "Tech leading"
     title: "🔧 Tech leading skills"
@@ -49,3 +49,6 @@ topics:
           - "Regularly leads project teams or initiatives (e.g. multiple projects)"
           - "Assembles and guides the team needed to deliver on critical company-level goals e.g. przechodzimy na nowy język i jesteś liderem, który prowadzi inicjatywę przejścia/nauki nowego języka"
 ---
+
+### What is it about?
+Tech leading skills refer to ability to lead a project team in terms of technical matters i.e. making important technical decisions related to the project, managing the work of developers in the team and taking care of creating a healthy workplace for the team.

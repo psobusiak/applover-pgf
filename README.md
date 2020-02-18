@@ -1,57 +1,53 @@
 <p align="center">
   <a href="https://www.monzo.com">
-    <img alt="Monzo favicon" src="https://d33wubrfki0l68.cloudfront.net/673084cc885831461ab2cdd1151ad577cda6a49a/92a4d/static/images/favicon.png" width="60" />
+    <img alt="Monzo favicon" src="src/images/favicon.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
     Personal Growth Framework at Applover
 </h1>
 
-🎉 Welcome to the Progression at Monzo repository
+Welcome to the PGF's repository 🎉.
 
-This is where all of Monzo's progression frameworks live, as well as the site that powers `progression.monzo.com` 💪
+This is where PGF lives (literally - as this is the place where you can make changes to PGF's content and let it evolve over time).
 
 **Get stuck? There's a glossary at the bottom of this readme!**
 
-## 🤯 Where am I?
+## Where am I?
 
-Welcome to GitHub!
+Welcome to GitLab!
 
-GitHub is an online service that we use to store our code, designs, and more. GitHub allows us to manage these files closely, allowing us to track file edits, new file creations, etc. This also means multiple people can work on the same file at the same time! It's pretty neat.
+GitLab is an online service that we use to store our code - in this repository we store the code for PGF as it is simply a web application. GitLab allows for easy file management (either from console or the web interface) as well as tracking history of changes to the project (which is super useful if you would like to take a look when exactly particular change to PGF was made and by whom). GitLab also allows multiple people to be working simultaneously on even the same file.
 
-We mainly use GitHub in Engineering, as it allows engineers to review each others code, making sure we have a tidy codebase and (hopefully!) stopping some bugs from crawling through the cracks 🐛
+The main reasons for keeping PGF in GitLab repository are:
+- Both implementation and configuration is stored in a single place - whenever you want to add a feature to the application or modify PGFs content, you will do it within the same repository following the same scheme (described below).
+- Every Applover member has a chance to conribute to PGF.
+- Once the suggested changes are approved (by team member or PGF mainainer) they will automatically be published in the PGF website.
 
-We're using GitHub to store our progression frameworks for a few reasons:
-- It's public (or open source), meaning we can share this with the community and allow them to contribute!
-- Monzonauts can "own" or manage a framework (or frameworks), meaning they get to control any changes or additions in that area
-- It means we can build a super fast site 🚀
+## How does this work?
 
-## ❔ How does this work?
-
-This is the structure of our repo
+This is the structure of our repo:
 ```
-progression-framework/
-    frameworks/
-    src/
-    CODEOWNERS
-    [a bunch of config files]
+paths/
+src/
+CODEOWNERS
+[a bunch of config files]
 ```
 
-`site` contains our website files, `frameworks` contains our progression framework files, and `CODEOWNERS` is the file that defines who owns or manages a framework, file or folder.
-All the other files are configuration, which you should totally ignore 👌
+`src` contains our website files, `paths` contains our values/roles development paths files, and `CODEOWNERS` is the file that defines who owns or manages a framework, file or folder.
+All the other files are configuration, which you should totally ignore.
 
-**The `frameworks` folder is what you want to pay attention to!**
+**The `paths` folder is what you want to pay attention to!**
 
+This is where all of our development paths live. Head inside and you'll see files associated to the values we cherish at Applover and paths that you can follow in your career development.
 
-This is where all of our progression frameworks live. Head inside, and you'll see folders associated to headlines (like design and engineering).
+Some of the paths might be grouped - they shall then be placed within a folder of the group name (like `core` group).
 
-Inside these folders, you'll see files representing a job (like `designer.md`). 
+## What is the structure of a path file?
 
----
+Files that end in `.md` are called Markdown files. We display these files on the site in the same way they are written, so you can put whatever you want (within reason) in these.
 
-Files that end in `.md` are called Markdown files. We display these files on the site in the same way they are written, so you can put whatever you want  (within reason) in these.
-
-All of these file contain some YAML, which a data format that is similar to a bullet point list. Some of this YAML data is compulsory, as it helps the site build 🛠️
+All of these file contain some YAML, which is a data format that is similar to a bullet point list. Some of this YAML data is compulsory, as it helps the site build.
 
 Some files contain the compulsory YAML and the rest is Markdown, however some of these files *only* contain YAML.
 The files containing only YAML are more structured, and so look a bit different to the Markdown files.
@@ -59,12 +55,12 @@ The files containing only YAML are more structured, and so look a bit different 
 The following YAML data can be found in every file:
 
 ``` yaml
-path:         ~~ a path goes here, eg "/frameworks/operations/ops-leadership" ~~
-title:        ~~ the page title goes here, eg "🎯 Ops Leadership Framework" ~~
-sidebarTitle: ~~ this is the title in the sidebar "🎯 Leadership" ~~
-sidebarGroup: ~~ this is the subheading/group. eg "operations" or nothing ~~
+path:         ~~ a path goes here, eg "/communication" ~~
+title:        ~~ the page title goes here, eg "💬 Communication skills" ~~
+sidebarTitle: ~~ this is the title in the sidebar "💬 Communication" ~~
+sidebarGroup: ~~ this is the subheading/group. eg "communication" or nothing ~~
 yaml:         ~~ indicates if the framework is mainly yaml (true) or markdown (false) ~~
-levels:       ~~ the amount of levels you want to be shown if the file is yaml, eg 6 or nothing ~~
+levels:       ~~ the amount of milestones you want to be shown if the file is yaml, eg 6 or nothing ~~
 homepage:     ~~ card-based frameworks only! whether you want a homepage to be shown, eg true, false, or nothing if irrelevant ~~
 ```
 
@@ -73,68 +69,65 @@ If the framework is in YAML format, underneath the compulsory data, you will fin
 ``` yaml
 homepage: true
 topics:
-  - name: "communication and teamwork"
-    title: "💬 Communication and Teamwork"
+  - name: "communcation"
+    title: "💬 Communcation skills"
     content:
       - level: 1
         criteria:
-          - "Clearly articulates what they’re working on and why."
-          - "Gives clear concise updates in team meeting and stand ups on material which is relevant for the team"
+          - "Accepts feedback graciously and learns from experience"
+          - "Follows established rules for documentation e.g. Gitlab Wiki, GSuite"
+          - "Constructively communicates criticism, observations, remarks"
+          - "Collaborates with others with empathy"
+          - "Is responsive, efficiently responds to teams’ questions"
       - level: 2
         criteria:
-          - "Proactively communicates with stakeholders and tailors communication to audience. Keeps stakeholders like COps, legal, marketing, finance updated on progress and ensures they have what they need."
-          - "Gives clear concise updates in cross-team meetings on material which is relevant for the teams"
-  - name: "conduct"
-    title:
-    content:
-      - level: 1
-        criteria:
-          - "Follows policies and procedures applicable to role. Completes training."
-          - "Accepts feedback graciously and acts on it. Gives feedback when requested"
-          - "Builds relationships within monzo and contributes to building a supportive, knowledgable and engaged peer group"
+          - "Knows when their work affects others and proactively communicates the impact of status updates with those who most need to know"
+          - "Proactively seeks and gives feedback from/to peers"
+          - "Is able to communicate with peers from various departments, talks to non-technical stakeholders on appropriate level of abstraction"
         exampleCriteria:
-          -  criteria: "A criteria with an example point goes here"
-             examples:
-               - "The example goes here"
-               - "Another example may go here"
+          - criteria: "Uses various communication channels to give update"
+            examples:
+              - "uses online channels, like Slack, emails"
+              - "uses team and 1:1: meetings to give the update"
 ---
-### 🏠 Welcome to the Backend engineering home page
+### What is it about?
+Communication skills refer to (...)
 ```
 
-If a topic's name matches the name of a topic in the generic framework, the generic framework criteria will be loaded as well as your framework criteria, and the title + description will be loaded from the generic framework.
-If you have a custom topic, you must define a title and description.
-You can see this in the example above, with both the custom "communication and teamwork" topic and the generic "conduct" topic.
-
 For each topic, you must define its contents. This is made up of an object (starts with a bullet point) which contains the criteria, and the level it is associated with.
-You can also add examples, by putting them in the `exampleCriteria` object, defining the actual criteria point, and any examples it links to.
+If you need to add some examples to particular content (so that the content could be expanded by clicking on it), simply put the content along with its examples into the `exampleCriteria` object, defining the actual criteria point, and any examples it links to.
 
 ---
 
-If you need any help and are a Monzonaut, ping @lucas a message or put a message in #org-scaling. Otherwise, feel free to raise an issue here in GitHub.
+If you need any help, ping @zkusznir a message or feel free to raise an issue here in GitLab.
 
-## ✏️ How do I edit a framework?
+## How do I edit the PGF?
 
-Firstly, go to the framework file on this site. Click on the ✏️ icon in the top bar, and make your edits in the text editor that appears.
+There are 2 ways to make changes to existing PGF. If you are familiar with GitLab or simply want to try it out please follow the steps below:
+1. Firstly, navigate to the `frameworks/` folder and select the file you want to edit.
+2. Click on the `Edit` button in the top bar, and make your edits in the text editor that appears.
+3. Provide meaningful `Commit message` to summarize the changes (e.g. *Add examples to 2. milestone in Communication path*)
+4. Provide the name of `Target branch` to which you want to publish changes (e.g. *add-examples-to-communication*). This branch will further be used to create a Merge Request in order to discuss the suggested changes with peers and eventually publish them.
+5. Ensure the `Start a new merge request with these changes` checkbox is checked.
+6. You'll be navigated to the page with new merge request. Provide a meaningful `Title` for the merge request (as it will be visible in the history log of changes) and a `Description` that would state the reason of changes. You can then specify the `Assignee` to the merge request - this person will be notified about the fact you have created the merge request and will be obliged to review these.
+7. If the assigned person approves the changes you are able to publish the changes with `Submit merge request` button. This will automatically save your changes, store them in history log as well as publish them on the website.
 
-To save or 'commit' your changes, add an overview title and a basic description of what you've changed. You'll see that the option "Create a new branch for this commit and start a pull request" is pre-selected for you.
-
-This will automatically save your changes and open a pull request, allowing the person who manages that framework to comment on your suggestion, decline the suggestion, or approve and merge it to make it live.
-
+Otherwise you can create an issue in GitLab so that PGF's maintainer can take care of making the changes for you. Please follow the steps below in order to do so:
+1. Enter the [Issues](https://git.applover.pl/Applover/pgf/issues) tab.
+2. Click the `New issue` button.
+3. Provide meaningful `Title` and thorough `Description` for the issue so that maintainer will have the full understanding of the changes suggested by you.
+4. Assign the maintainer as `Assignee` to the issue so that she/he would be notified about your request. As soon as maintainer notices your issue, she/he will contact you.
 
 ## Glossary
 
-**Repository (Repo)**: A folder in GitHub where files live
+**Repository (Repo)**:
 
-*If you've seen the word 'repo', we're probably talking about the Progression Framework folder in GitHub that you're on right now (https://github.com/monzo/progression-framework)*
+A folder in GitLab where the whole project with its files live. Actually it is the folder whose structure you can see on top of the page you're on right now.
 
-**Pull Request (PR)**: A request to change a file, or multiple files on GitHub
+**Merge Request (MR)**:
 
-*This will be part of how a framework is changed or created. Normally, someone will 'review' this request (make sure it's good to go live)*
-
-**Squash and Merge (Merge)**: Taking new or modified files, and putting them live
-
-*This is what will happen after somebody has a successful review on their pull request. It'll take the modified files, and put them into the "master" version of the repo, which is what's on our site*
+A request to change a file, or multiple files on GitLab. It contains a list of changes to be introduced with comparison to existing data. It will be created whenever you want to make changes to PGF and them used to your peers for review and eventually publishing the changes.
 
 
-### 🤓 Looking for technical documentation?
-Take a look at the readme in the `src/` directory (https://github.com/monzo/progression-framework/blob/master/src/README.md)
+### Looking for technical documentation?
+Take a look at the readme in the `src/` directory.

@@ -5,7 +5,7 @@ sidebarTitle: "🚢 Delivery & Problem Solving"
 sidebarGroup:
 yaml: true
 levels: 5
-homepage: false
+homepage: true
 topics:
   - name: "delivery and problem solving"
     title: "🚢 Delivery & Problem Solving skills"
@@ -45,3 +45,6 @@ topics:
           - "Ensures tasks are prioritized correctly"
 
 ---
+
+### What is it about?
+Delivery and problem solving skills refer to your self-organisation skills and focus on delivery. It also corresponds to ability to deal with difficult cases and approach towards problems that are either known or appear out of nowhere.

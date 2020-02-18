@@ -5,7 +5,7 @@ sidebarTitle: "👨‍🏫 Mentorship"
 sidebarGroup:
 yaml: true
 levels: 5
-homepage: false
+homepage: true
 topics:
   - name: "mentorship"
     title: "👨‍🏫 Mentorship skills"
@@ -36,3 +36,6 @@ topics:
           - "Shares their expertise to develop mentee’s expert skills e.g. mentor is an expert in machine learning and is able to guide a mentee in this direction"
           - "Working with this person should leave team members feeling like they are going to leave with something significantly better than they came into"
 ---
+
+### What is it about?
+Mentorship skills refer to your will and ability to serve as a mentor to other peer in order to help them grow within their area of expertise. These skills and exemplary behaviors correspond to helping your mentee in their career development by guiding him towards their goal based on your experience.

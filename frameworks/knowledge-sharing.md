@@ -5,7 +5,7 @@ sidebarTitle: "🎓 Knowledge sharing"
 sidebarGroup:
 yaml: true
 levels: 5
-homepage: false
+homepage: true
 topics:
   - name: "knowledge sharing"
     title: "🎓 Knowledge sharing skills"
@@ -30,3 +30,6 @@ topics:
         criteria:
           - "Contributes to development of open-sourced shared libraries, frameworks and resources"
 ---
+
+### What is it about?
+Knowledge sharing skills refer to your will and ability to take advantage of the knowledge that you possess and share it with your peers for their benefit.
