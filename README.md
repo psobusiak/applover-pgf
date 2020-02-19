@@ -9,20 +9,20 @@
 
 Welcome to the PGF's repository 🎉.
 
-This is where PGF lives (literally - as this is the place where you can make changes to PGF's content and let it evolve over time).
+This is where our PGF lives (literally - as this is the place where you can make changes to PGF's content and let it evolve over time).
 
-**Get stuck? There's a glossary at the bottom of this readme!**
+**Got stuck? There's a glossary at the bottom of this readme!**
 
 ## Where am I?
 
 Welcome to GitLab!
 
-GitLab is an online service that we use to store our code - in this repository we store the code for PGF as it is simply a web application. GitLab allows for easy file management (either from console or the web interface) as well as tracking history of changes to the project (which is super useful if you would like to take a look when exactly particular change to PGF was made and by whom). GitLab also allows multiple people to be working simultaneously on even the same file.
+GitLab is an online service that we use to store our code - in this repository we store the code for our PGF as it is simply a web application. GitLab allows for easy file management (either from console or the web interface) as well as tracking the history of changes to the project (which is super useful if you would like to take a look when exactly particular change to PGF was made and by whom). GitLab also allows multiple people to be working simultaneously on even the same file.
 
 The main reasons for keeping PGF in GitLab repository are:
 - Both implementation and configuration is stored in a single place - whenever you want to add a feature to the application or modify PGFs content, you will do it within the same repository following the same scheme (described below).
 - Every Applover member has a chance to conribute to PGF.
-- Once the suggested changes are approved (by team member or PGF mainainer) they will automatically be published in the PGF website.
+- Once the suggested changes are approved (by a team member or a PGF mainainer) they will automatically be published on the PGF website.
 
 ## How does this work?
 
@@ -35,7 +35,7 @@ CODEOWNERS
 ```
 
 `src` contains our website files, `paths` contains our values/roles development paths files, and `CODEOWNERS` is the file that defines who owns or manages a framework, file or folder.
-All the other files are configuration, which you should totally ignore.
+All other files are configuration, which you should totally ignore.
 
 **The `paths` folder is what you want to pay attention to!**
 
@@ -47,7 +47,7 @@ Some of the paths might be grouped - they shall then be placed within a folder o
 
 Files that end in `.md` are called Markdown files. We display these files on the site in the same way they are written, so you can put whatever you want (within reason) in these.
 
-All of these file contain some YAML, which is a data format that is similar to a bullet point list. Some of this YAML data is compulsory, as it helps the site build.
+All of these files contain some YAML, which is a data format that is similar to a bullet point list. Some of this YAML data is compulsory, as it helps the site build.
 
 Some files contain the compulsory YAML and the rest is Markdown, however some of these files *only* contain YAML.
 The files containing only YAML are more structured, and so look a bit different to the Markdown files.
@@ -103,26 +103,31 @@ If you need any help, ping @zkusznir a message or feel free to raise an issue he
 
 ## How do I edit the PGF?
 
-There are 2 ways to make changes to existing PGF. If you are familiar with GitLab or simply want to try it out please follow the steps below:
-1. Firstly, navigate to the `frameworks/` folder and select the file you want to edit.
-2. Click on the `Edit` button in the top bar, and make your edits in the text editor that appears.
-3. Provide meaningful `Commit message` to summarize the changes (e.g. *Add examples to 2. milestone in Communication path*)
-4. Provide the name of `Target branch` to which you want to publish changes (e.g. *add-examples-to-communication*). This branch will further be used to create a Merge Request in order to discuss the suggested changes with peers and eventually publish them.
-5. Ensure the `Start a new merge request with these changes` checkbox is checked.
-6. You'll be navigated to the page with new merge request. Provide a meaningful `Title` for the merge request (as it will be visible in the history log of changes) and a `Description` that would state the reason of changes. You can then specify the `Assignee` to the merge request - this person will be notified about the fact you have created the merge request and will be obliged to review these.
-7. If the assigned person approves the changes you are able to publish the changes with `Submit merge request` button. This will automatically save your changes, store them in history log as well as publish them on the website.
+There are 2 ways to make changes to existing PGF. If you are familiar with GitLab or simply want to try it out, please follow the steps below:
+1. Make sure you are added as a developer to this repository in Sidebar -> Members. If you are not, ping @zkusznir or anyone marked as maintainer or owner in the Members tab.
+2. Firstly, navigate to the `paths/` folder and select the file you want to edit.
+3. Click on the `Edit` button in the top bar, and make your edits in the text editor that appears.
+4. Provide meaningful `Commit message` to summarize the changes (e.g. *Add examples to 2. milestone in Communication path*)
+5. Provide the name of `Target branch` to which you want to publish changes (e.g. *add-examples-to-communication*). This branch will further be used to create a Merge Request in order to discuss the suggested changes with peers and eventually publish them.
+6. Ensure the `Start a new merge request with these changes` checkbox is checked.
+7. You'll be navigated to the page with new merge request. Provide a meaningful `Title` for the merge request (as it will be visible in the history log of changes) and a `Description` that would state the reason of changes. You can then specify the `Assignee` to the merge request - this person will be notified about the fact you have created the merge request and will be obliged to review these.
+8. If the assigned person approves the changes you are able to publish the changes with `Submit merge request` button. This will automatically save your changes, store them in history log as well as publish them on the website.
 
 Otherwise you can create an issue in GitLab so that PGF's maintainer can take care of making the changes for you. Please follow the steps below in order to do so:
 1. Enter the [Issues](https://git.applover.pl/Applover/pgf/issues) tab.
 2. Click the `New issue` button.
 3. Provide meaningful `Title` and thorough `Description` for the issue so that maintainer will have the full understanding of the changes suggested by you.
-4. Assign the maintainer as `Assignee` to the issue so that she/he would be notified about your request. As soon as maintainer notices your issue, she/he will contact you.
+4. Assign the maintainer as `Assignee` to the issue so that she/he would be notified about your request. As soon as maintainer notices your issue, they will contact you.
 
 ## Glossary
 
 **Repository (Repo)**:
 
 A folder in GitLab where the whole project with its files live. Actually it is the folder whose structure you can see on top of the page you're on right now.
+
+**Branch**:
+
+An independent set of changes introduced to the repository. Can be used to clearly organise history of changes. They are used to open and structure Merge Requests.
 
 **Merge Request (MR)**:
 
