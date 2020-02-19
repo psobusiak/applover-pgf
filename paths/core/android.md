@@ -42,7 +42,7 @@ topics:
         exampleCriteria:
           - criteria: "Has basic knowledge of parts of the application and their responsibilities"
             examples:
-              -  "having a project that comprises of 4 separate applications the developer knows scope and responsibilities of each of these"
+              - "having a project that comprises of 4 separate applications the developer knows scope and responsibilities of each of these"
           - criteria: "Knows basic security practices and is able to find ones"
             examples:
               - "uses libraries supporting security in the project, takes care of proper authentication and authorization within the project"
@@ -147,11 +147,11 @@ topics:
         exampleCriteria:
           - criteria: "Knows basics of working with Android Studio"
             examples:
-              - "Has basic knowledge of using Android Emulator and physical devices for debugging"
-              - "Knows how to properly use resource files for dimens, strings, layouts"
-              - "Knows the Android project file structure"
-              - "Understands the importance of AndroidManifest and knows how to modify it"
-              - "Is familiar with Logcat as a tool to monitor system and app logs"
+              - "has basic knowledge of using Android Emulator and physical devices for debugging"
+              - "knows how to properly use resource files for dimens, strings, layouts"
+              - "knows the Android project file structure"
+              - "understands the importance of AndroidManifest and knows how to modify it"
+              - "is familiar with Logcat as a tool to monitor system and app logs"
       - level: 2
         criteria:
           - "Makes informed decisions when choosing the algorithm or data structure to solve the issue at hand"
@@ -167,25 +167,25 @@ topics:
               - "Retrofit/Apollo for networking"
               - "Moshi/GSON for JSON-parsing"
               - "Glide for image caching"
-              - "Is familiar with basic DataBinding use-cases and implementations"
+              - "is familiar with basic DataBinding use-cases and implementations"
           - criteria: "Knows how to integrate commonly used tools"
             examples:
-              - "Integrates arbitrary 3rd party libraries / APIs when provided documentation"
-              - "Has experience with any Firebase Services"
+              - "integrates arbitrary 3rd party libraries / APIs when provided documentation"
+              - "has experience with any Firebase Services"
           - criteria: "Handles common non-trivial implementation use-cases"
             examples:
-              - "Knows the uses of Snackbars and Dialogs, communicates them to the designers and implements them correctly"
-              - "Implements basic push notification handling"
-              - "Knows how to properly use resource files for plurals, string arrays, spannables, etc., including alternative configurations"
-              - "Implements complex animations (including Lottie) and transitions with shared views"
-              - "Handles real-time permissions properly"
-              - "Is familiar with reactive programming (Rx / coroutines)"
-              - "Builds simple custom views or included layouts when deemed necessary"
+              - "knows the uses of Snackbars and Dialogs, communicates them to the designers and implements them correctly"
+              - "implements basic push notification handling"
+              - "knows how to properly use resource files for plurals, string arrays, spannables, etc., including alternative configurations"
+              - "implements complex animations (including Lottie) and transitions with shared views"
+              - "handles real-time permissions properly"
+              - "is familiar with reactive programming (Rx / coroutines)"
+              - "builds simple custom views or included layouts when deemed necessary"
           - criteria: "Uses a set of tools to improve Android workflow"
             examples:
-              - "Uses Android Studio debugger to track down bugs effectively"
-              - "Understands the structure of Gradle build files and knows how to modify their basic parts"
-              - "Understands the importance of ADB in developing Android applications"
+              - "uses Android Studio debugger to track down bugs effectively"
+              - "understands the structure of Gradle build files and knows how to modify their basic parts"
+              - "understands the importance of ADB in developing Android applications"
       - level: 3
         criteria:
           - "Puts emphasis on security of data storage/transmission"
@@ -201,37 +201,37 @@ topics:
               - "knows how to analyse their risks and suitability for given task"
           - criteria: "Knows how and when to use more complex features of Kotlin such as:"
             examples:
-              - "Reified generic types"
-              - "Generic type variance"
-              - "Inline functions"
-              - "Custom property & interface delegation"
+              - "reified generic types"
+              - "generic type variance"
+              - "inline functions"
+              - "custom property & interface delegation"
           - criteria: "Has experience with some of the less-often used system features such as:"
             examples:
-              - "Media playback
-              - "Download managers
-              - "File handling"
+              - "media playback"
+              - "download managers"
+              - "file handling"
           - criteria: "Influences non-coding related issues"
             examples:
-              - "Takes time to analyse performance of the app and fixes any found issues"
-              - "Considers migrations between api/app versions"
-              - "Seeks out opportunities to improve company-wide standards for Android development"
-              - "Designs robust release process with optimised app bundles"
-              - "Tends to try out new libraries/tools when time allows"
-              - "Has good knowledge of Gradle build files and can modify more complicated parts of the build process"
+              - "takes time to analyse performance of the app and fixes any found issues"
+              - "considers migrations between api/app versions"
+              - "seeks out opportunities to improve company-wide standards for Android development"
+              - "designs robust release process with optimised app bundles"
+              - "tends to try out new libraries/tools when time allows"
+              - "has good knowledge of Gradle build files and can modify more complicated parts of the build process"
           - criteria: "Has good knowledge of designing the Android app even before coding"
             examples:
-              - "Is proficient with dependency injection library of choice"
-              - "Knows how to safely and efficiently use kotlin coroutines or RxJava to implement asynchronous operations"
-              - "Implements more complicated view hierarchies, properly passing data between destinations"
-              - "Handles in-app navigations in a clear structured manner using recommended solutions (i.e. Navigation component), including deep links"
-              - "Has familiarity with the concept of paginated data and is able to implement basic paged lists"
-              - "Designs and implements local database solutions in the application using the recommended ORM (Room) or SQLite queries depending on the requirements"
+              - "is proficient with dependency injection library of choice"
+              - "knows how to safely and efficiently use kotlin coroutines or RxJava to implement asynchronous operations"
+              - "implements more complicated view hierarchies, properly passing data between destinations"
+              - "handles in-app navigations in a clear structured manner using recommended solutions (i.e. Navigation component), including deep links"
+              - "has familiarity with the concept of paginated data and is able to implement basic paged lists"
+              - "designs and implements local database solutions in the application using the recommended ORM (Room) or SQLite queries depending on the requirements"
           - criteria: "Knows how to implement more complex use-cases"
             examples:
-              - "Implements complex layout files using the correct ViewGroups for the particular task"
-              - "Is able to properly use correct types of Services and Broadcast Receivers"
-              - "Implements complex push notifications behaviours"
-              - "Uses WorkManager or similar API to schedule asynchronous operations within the app"
+              - "implements complex layout files using the correct ViewGroups for the particular task"
+              - "is able to properly use correct types of Services and Broadcast Receivers"
+              - "implements complex push notifications behaviours"
+              - "uses WorkManager or similar API to schedule asynchronous operations within the app"
       - level: 4
         criteria:
           - "Writes exemplary Android code (both in logic and views) others strive to imitate"
@@ -243,9 +243,9 @@ topics:
           - "Implements complicated use-cases regarding paged lists"
           - "Coordinates a company-wide switch to a new approach/framework/architecture endorsed by Google or otherwise more suitable to our use-case"
           - "Debugs complex multi-source issues and provides comprehensive solutions to them"
-          - "Has working knowledge of GraphQL (e.g. with Apollo-Android) to generate code and consume GraphQL API"
-          - "Has working knowledge implementing hardware-related solutions (e.g. MediaCodec, Camera2Api or various HALs)"
-          - "Has working knowledge of integrating with NDK libraries"
+          - "Has in-depth knowledge of GraphQL (e.g. with Apollo-Android) to generate code and consume GraphQL API"
+          - "Has in-depth knowledge implementing hardware-related solutions (e.g. MediaCodec, Camera2Api or various HALs)"
+          - "Has in-depth knowledge of integrating with NDK libraries"
       - level: 5
         criteria:
           - "Proactively prepares the codebase to new Android system requirements or new features only available in newer versions of the system"
