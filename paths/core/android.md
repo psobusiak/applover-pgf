@@ -142,13 +142,18 @@ topics:
           - "Takes the most basic precautions against causing memory leaks"
           - "Is familiar with AndroidX/Jetpack framework, including MVVM architecture"
           - "Updates existing unit tests when modifying corresponding code"
-          - "Has basic knowledge of using Android Emulator and physical devices for debugging."
+          - "Has basic knowledge of using Android Emulator and physical devices for debugging"
           - "Knows how to properly use resource files for dimens, strings, layouts"
           - "Implements basic animations and transitions"
+          - "Knows the Android project file structure"
+          - "Understands the importance of AndroidManifest and knows how to modify it"
+          - "Is familiar with Logcat as a tool to monitor system and app logs"
+          - "Has basic knowledge of Activity lifecycle"
       - level: 2
         criteria:
           - "Makes informed decisions when choosing the algorithm or data structure to solve the issue at hand"
           - "Has a good knowledge of Java"
+          - "Has basic knowledge of any SQL-like language to understand relation databases' queries"
           - "Adds unit tests for the features developed"
           - "Is familiar with reactive programming"
           - "Designs correct data models in the application"
@@ -162,6 +167,10 @@ topics:
           - "Knows the uses of Snackbars and Dialogs, communicates them to the designers and implements them correctly"
           - "Builds simple custom views when deemed necessary"
           - "Has experience with any Firebase Services"
+          - "Knows the majority of lifecycle callbacks in the Android components used the most"
+          - "Understands the structure of Gradle build files and knows how to modify their basic parts"
+          - "Is familiar with basic DataBinding use-cases and implementations"
+          - "Understands the importance of ADB in developing Android applications"
         exampleCriteria:
           - criteria: "Knows a set of the most used 3rd-party libraries"
             examples:
@@ -188,6 +197,10 @@ topics:
           - "Designs and implements local database solutions in the application using the recommended ORM (Room) or SQLite queries depending on the requirements"
           - "Uses WorkManager or similar API to schedule asynchronous operations within the app"
           - "Has in-depth knowledge of several Firebase Services, including Analytics"
+          - "Has in-depth knowledge of lifecycle callbacks and the relations between different components' lifecycles"
+          - "Has good knowledge of Gradle build files and can modify more complicated parts of the build process"
+          - "Has working knowledge of Databinding including custom BindingAdapters and binding in recycler views (e.g. with binding-collection-adapter)"
+          - "Has experience with code utilising device sensors"
         exampleCriteria:
           - criteria: "Takes responsibility for 3rd party libraries added to the project"
             examples:
@@ -201,21 +214,24 @@ topics:
       - level: 4
         criteria:
           - "Writes exemplary code others strive to imitate"
-          - "Builds and maintains complex, reusable, well-documented Custom Views for internal company use and teaches others about their use-cases"
+          - "When needed, builds and maintains complex, reusable, well-documented Custom Views for internal company use and teaches others about their use-cases. Knows the alternatives not to overuse them"
           - "Knows how to configure CI/CD solutions for Android using lint tools (Danger & Detekt) and makes informed choices about lint rules."
           - "Know when and how to use instrumented tests in more demanding projects"
           - "Coordinates major refactorings of existing projects"
           - "Is proficient within Gradle build scripts"
-          - "Implements complicated use-cases regarding paged lists."
+          - "Implements complicated use-cases regarding paged lists"
           - "Coordinates a company-wide switch to a new approach/framework/architecture endorsed by Google or otherwise more suitable to our use-case"
           - "Debugs complex multi-source issues and provides comprehensive solutions to them"
+          - "Has working knowledge of GraphQL (e.g. with Apollo-Android) to generate code and consume GraphQL API"
+          - "Has working knowledge implementing hardware-related solutions (e.g. MediaCodec, Camera2Api or various HALs)"
+          - "Has working knowledge of integrating with NDK libraries"
       - level: 5
         criteria:
           - "Proactively prepares the codebase to new Android system requirements or new features only available in newer versions of the system."
           - "Mastered the act of translating client requirements/visions into concrete Android featuresets"
           - "Has a good knowledge of iOS platform to facilitate easier communication/rewrites between the platforms. "
           - "Is an active member of open-source community, reporting issues, and potentially contributing to frequently used 3rd-party Android libraries, such as UI components"
-          - "Has hands-on experience with some of the “Nice to have” skills and other optional tools and domain-specific solutions"
+          - "Has hands-on experience with some optional tools and domain-specific solutions in a wide variety of projects"
           - "Has practical commercial experience with hybrid techstack, be it Flutter, React Native or otherwise"
 
 ---
