@@ -7,7 +7,7 @@ Static site is built in Gatsby, therefore You'll need the Gatsby CLI on your mac
 npm install --global gatsby-cli
 ```
 
-Next, navigate to the `progression-framework` directory and use yarn to get everything installed
+Next, navigate to the `pgf` directory and use yarn to get everything installed
 ``` sh
 cd pgf
 yarn
