@@ -27,6 +27,7 @@
     "gatsby-transformer-remark": "^2.1.19",
     "gatsby-transformer-sharp": "^2.1.13",
     "gatsby-transformer-yaml": "^2.1.6",
+    "gh-pages": "^2.2.0",
     "js-yaml-loader": "^1.0.1",
     "lottie-web": "^5.4.3",
     "ramda": "^0.26.1",
@@ -49,7 +50,8 @@
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "flow": "flow"
+    "flow": "flow",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
