@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://www.monzo.com">
-    <img alt="Monzo favicon" src="src/images/favicon.svg" width="60" />
+  <a href="https://www.applover.pl">
+    <img alt="Applover favicon" src="src/images/favicon.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
