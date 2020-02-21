@@ -1,32 +1,17 @@
-name: Node.js CI
-
+name: Build and Deploy
 on: [push]
-
 jobs:
-  build:
-
+  build-and-deploy:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [10.x]
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+    - name: Checkout
+      uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
       with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: git config --global user.email "psobusiak@gmail.com"
-    - run: git config --global user.name "psobusiak"
-    - run: ./node_modules/.bin/gatsby build --prefix-paths
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+        persist-credentials: false
+
+    - name: Build and Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-#         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        # github_token: ${{ secrets.GITHUB_TOKEN }}
-        personal_token: c4dce1244950370c4fc7ba3469dc383dc9ab0ef8
-        publish_dir: ./public
-      env:
-        CI: true
+        ACCESS_TOKEN: a200afc538b68f8d3830825d6a685a3680d4cdee
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: public # The folder the action should deploy.
