@@ -111,7 +111,8 @@ There are 2 ways to make changes to existing PGF. If you are familiar with GitLa
 5. Provide the name of `Target branch` to which you want to publish changes (e.g. *add-examples-to-communication*). This branch will further be used to create a Merge Request in order to discuss the suggested changes with peers and eventually publish them.
 6. Ensure the `Start a new merge request with these changes` checkbox is checked.
 7. You'll be navigated to the page with new merge request. Provide a meaningful `Title` for the merge request (as it will be visible in the history log of changes) and a `Description` that would state the reason of changes. You can then specify the `Assignee` to the merge request - this person will be notified about the fact you have created the merge request and will be obliged to review these.
-8. If the assigned person approves the changes you are able to publish the changes with `Submit merge request` button. This will automatically save your changes, store them in history log as well as publish them on the website.
+8. If the assigned person approves the changes you are able to publish the changes with `Submit merge request` button. This will automatically save your changes and store them in history log.
+9. Maintainer will be notified about your merge and will publish the changes on the website (this process is to be automated).
 
 Otherwise you can create an issue in GitLab so that PGF's maintainer can take care of making the changes for you. Please follow the steps below in order to do so:
 1. Enter the [Issues](https://git.applover.pl/Applover/pgf/issues) tab.
