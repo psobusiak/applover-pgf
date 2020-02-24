@@ -183,7 +183,7 @@ topics:
             examples:
               - "their knowledge and experience is extremely valuable at workshops with client"
               - "is able to quickly and accurately spot potential issues and suggest solutions at early stage of project planning"
-              - "is a go-to person who will always provide peers with a piece of advice and solutions to given issues"
+              - "is a go-to person who will always provide co-workers with a piece of advice and solutions to given issues"
       - level: 5
         criteria:
           - "Has broad experience at working with various CI/CD approaches for such platforms as iOS and Android platforms"
