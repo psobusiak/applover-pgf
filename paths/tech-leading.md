@@ -47,7 +47,7 @@ topics:
       - level: 5
         criteria:
           - "Regularly leads project teams or initiatives (e.g. multiple projects)"
-          - "Assembles and guides the team needed to deliver on critical company-level goals e.g. przechodzimy na nowy język i jesteś liderem, który prowadzi inicjatywę przejścia/nauki nowego języka"
+          - "Assembles and guides the team needed to deliver on critical company-level goals e.g. the company switches to a different programming language and they are spearheading the effort."
 ---
 
 ### What is it about?
