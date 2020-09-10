@@ -4,7 +4,7 @@ title: "🔧 Tech leading"
 sidebarTitle: "🔧 Tech leading"
 sidebarGroup:
 yaml: true
-levels: 5
+levels: 0
 homepage: true
 topics:
   - name: "Tech leading"
@@ -51,4 +51,10 @@ topics:
 ---
 
 ### What is it about?
-Tech leading skills refer to ability to lead a project team in terms of technical matters i.e. making important technical decisions related to the project, managing the work of developers in the team and taking care of creating a healthy workplace for the team.
+<b>We are still working on a Leadership path description - we'll let you know when it's there 😉</b>
+
+If you have any questions about this path and you need the answer right now, please contact our HR Manager or CTO
+
+Thanks!
+
+<!-- Tech leading skills refer to ability to lead a project team in terms of technical matters i.e. making important technical decisions related to the project, managing the work of developers in the team and taking care of creating a healthy workplace for the team. -->
