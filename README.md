@@ -11,7 +11,7 @@ Welcome to the PGF's repository 🎉.
 
 This is where our PGF lives (literally - as this is the place where you can make changes to PGF's content and let it evolve over time).
 
-To learn more about professional development paths and the values we cherish and follow at Applover, please visit https://psobusiak.github.io/applover-pgf/.
+To learn more about professional development paths and the values we cherish and follow at Applover, please visit https://apploversoftware.github.io/PGF/
 
 **Got stuck? There's a glossary at the bottom of this readme!**
 
