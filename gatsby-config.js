@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/applover-pgf',
+  pathPrefix: '/PGF',
   siteMetadata: {
     title: 'Applover Personal Growth Framework',
   },
