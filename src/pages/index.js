@@ -53,7 +53,7 @@ export default class Index extends React.Component<Props> {
               within each milestone for it. While most of these paths are
               common and relevant to all Applover&apos;s team members, there are
               few that are optional to be followed (paths like <b>Mentorship</b>{' '}
-              or <b>Tech leading</b>).
+              or <b>Leadership</b>).
             </DescriptionText>
             <DescriptionText>
               Milestone represents a single goal to be achieved within given
