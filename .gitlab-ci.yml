@@ -7,7 +7,7 @@ cache:
 static page:
   stage: deploy
   script:
-    - npm i
+    - npm ci
     - git config user.name ${GH_ACTOR_NAME}
     - git config user.email ${GH_ACTOR_EMAIL}
     - ./node_modules/.bin/gatsby build --prefix-paths && ./node_modules/.bin/gh-pages -d public -r https://${GH_TOKEN}@github.com/${GH_REPOSITORY}.git
